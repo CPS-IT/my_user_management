@@ -114,6 +114,7 @@ final class BackendUserRepository extends \TYPO3\CMS\Beuser\Domain\Repository\Ba
                         $query->like('usergroup', (int)$id . ',%'),
                         $query->like('usergroup', '%,' . (int)$id),
                         $query->like('usergroup', '%,' . (int)$id . ',%'),
+                        $query->like('usergroup', ''),
                     ]);
                 }
                 $constraints[] = $query->logicalOr($allowedConstraints);
