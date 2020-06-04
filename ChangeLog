@@ -1,3 +1,6 @@
+2020-06-04         [RELEASE] Release of my_user_management 4.0.5 (Vladimir Falcon)
+2020-06-04 8574242 [REFACTOR] Include users without user group in index list (Vladimir Falcon)
+
 2020-05-05         [RELEASE] Release of my_user_management 4.0.4 (Vladimir Falcon)
 2020-05-05 68ef29c [FEATURE] Allow the creation an deletion von sys file mounts. (Vladimir Falcon)
 
